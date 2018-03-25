@@ -4,12 +4,13 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-        <script type ="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+        <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
     </head>
     <body class="light-green">
-            <main class="container">
+            <div class="container">
                 <!-- Dropdown Structure -->
                 <ul id="dropdown1" class="dropdown-content">
                   <li><a href="#!">one</a></li>
@@ -30,12 +31,21 @@
                 </nav>
                 
                 <div>TODO write content</div>
-                
+ <h3>Drop Down Demo</h3>
+      <ul id = "dropdown" class = "dropdown-content">
+         <li><a href = "#">Inbox<span class = "badge">12</span></a></li>
+         <li><a href = "#!">Unread<span class = "new badge">4</span></a></li>
+         <li><a href = "#">Sent</a></li>
+         <li><a href = "#">Outbox<span class = "badge">14</span></a></li>
+      </ul>
+      
+      <a class = "btn dropdown-button" href = "#" data-activates = "dropdown">Mail Box
+         <i class = "mdi-navigation-arrow-drop-down right"></i></a>	               
                 <footer class="page-footer light-green darken-3">
                   <div class="container">
                     <div class="row">
                       <div class="col l6 s12">
-                        <h5 class="white-text">Contenido de Footer</h5>
+                        <h5 class="white-text">Footer Content</h5>
                         <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
                       </div>
                       <div class="col l4 offset-l2 s12">
@@ -56,7 +66,7 @@
                     </div>
                   </div>
                 </footer>
-            </main>
+            </div>
         <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
 </html>
